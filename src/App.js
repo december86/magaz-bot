@@ -6,7 +6,7 @@ import Button from './components/Button/Button';
 
 function App() {
 
-  const {onToggleButton, tg} = useTelegram
+  const {onToggleButton, tg} = useTelegram()
 
   useEffect(() => {
     tg.ready()
