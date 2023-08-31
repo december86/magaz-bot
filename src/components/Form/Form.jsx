@@ -6,8 +6,8 @@ const PHYSICAL = "physical";
 const LEGAL = "legal";
 
 const Form = (props) => {
-  const [country, setCountry] = useState({ initialState: "" });
-  const [street, setStreet] = useState({ initialState: "" });
+  const [country, setCountry] = useState("");
+  const [street, setStreet] = useState("");
   const [subject, setSubject] = useState({ initialState: PHYSICAL });
 
   const { tg } = useTelegram();
